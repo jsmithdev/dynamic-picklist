@@ -1,0 +1,36 @@
+<template>
+    <lightning-card
+		title="Dynamic Picklist Demo"
+		icon-name="custom:custom63"
+	>
+		<div style="min-height: 50vh; min-width: 70vw;">
+			<h2>Dynamic</h2>
+			<c-dynamic-picklist
+				name="StageName"
+				
+				label="StageName"
+				placeholder="StageName"
+
+				object-api-name="Opportunity"
+				field-api-name="StageName"
+				record-type-id={recordTypeId}
+
+				onchange={handleChange}
+			></c-dynamic-picklist>
+			<br/>
+			<br/>
+			<h2>Override</h2>
+
+			<c-dynamic-picklist
+				name="Custom_Override__c"
+				
+				label="Custom Override"
+				placeholder="Custom Override"
+
+				options-override={secondOptions}
+
+				onchange={handleChange}
+			></c-dynamic-picklist>
+		</div>
+	</lightning-card>
+</template>
