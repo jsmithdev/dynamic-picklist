@@ -1,6 +1,10 @@
 # Dynamic Picklist
 
-This LWC is a dynamic picklist that allows you to set the options dynamically based on the object, field, and record type.
+An LWC dynamic picklist that:
+
+- Adds ability to set the options dynamically based on the object, field, and record type.
+
+<img src="https://i.imgur.com/255cS5Z.png" width="350px;">
 
 ## Attributes
 
