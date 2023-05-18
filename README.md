@@ -1,6 +1,6 @@
 # Dynamic Picklist
 
-This component is a dynamic picklist that allows you to set the options dynamically
+This LWC is a dynamic picklist that allows you to set the options dynamically based on the object, field, and record type.
 
 ## Attributes
 
@@ -40,3 +40,7 @@ sfdx force:source:deploy -p force-app/main/default/lwc/dynamicPicklist
 ```
 
 📌  Above deploys to the default org set; Add `-u user@domain.com` or `-u alias` to deploy else where
+
+---
+
+Coded with ❤️ by [Jamie Smith](https://jsmith.dev)
